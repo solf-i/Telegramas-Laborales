@@ -1,0 +1,458 @@
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  main {
+    overflow-x: hidden;
+
+    .inicio {
+      background-image: url("../../img/inicio.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+      padding: 0;
+      position: relative;
+
+      .topnav {
+        .navbar {
+          padding: 1% !important;
+          border: none !important;
+          box-shadow: none !important;
+
+          .navbar-toggler {
+            background: rgba(255, 255, 255, 0.363);
+
+            .navbar-toggler-icon {
+              color: rgba(255, 255, 255, 0.363) !important;
+            }
+          }
+
+          .navbar-nav {
+            background: none;
+            width: 60%;
+
+            a {
+              color: rgb(235, 188, 101);
+              font-weight: bold;
+              text-align: end;
+              margin-right: 0% !important;
+              text-decoration: none;
+              text-shadow: 2px 2px 2px #000;
+              font-size: 250%;
+
+              &:hover {
+                background: none !important;
+                color: none !important;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #h1 {
+      text-transform: uppercase;
+      padding: 2%;
+      text-align: start;
+      font-weight: bold;
+      color: rgb(235, 188, 101);
+      font-family: "Roboto", sans-serif;
+      text-shadow: 5px 5px 5px #000;
+      font-size: 400%;
+      line-height: 150%;
+    }
+
+    .quienesSomos {
+      padding-top: 0;
+      padding-left: 4%;
+      padding-right: 4%;
+      background-color: #f5f6f8;
+
+      h3 {
+        font-weight: bold;
+        color: #0d629b;
+        font-size: 350%;
+        padding: 2% 2% 0%;
+        text-align: center;
+        background-color: #f5f6f8;
+        margin-top: 0;
+        overflow-y: hidden;
+      }
+
+      p {
+        font-size: 230%;
+        padding: 2%;
+        color: #000;
+        text-align: start;
+        width: 100%;
+      }
+    }
+
+    .quijote {
+      overflow-y: hidden;
+
+      img {
+        margin-left: 0%;
+      }
+
+      .frase {
+        text-align: end;
+        padding-top: 20%;
+        font-size: 200%;
+        font-style: italic;
+        line-height: 220%;
+        overflow-y: hidden;
+      }
+    }
+
+    .separador {
+      background-color: #f5f6f8;
+      padding: 3% 0% 0% 0%;
+
+      .lineaDivisoria {
+        border-bottom: 3px solid #0d629b;
+        width: 10%;
+      }
+    }
+
+    .servicios {
+      padding: 2% 2% 2% 4%;
+      height: 100%;
+      background-color: #f5f6f8;
+
+      h3 {
+        font-weight: bold;
+        color: #0d629b;
+        background-color: #f5f6f8;
+        font-size: 350%;
+        padding: 0% 2%;
+        text-align: center;
+        overflow-y: hidden;
+      }
+
+      .lista {
+        padding: 2%;
+        color: #000;
+        text-align: start;
+        width: 100%;
+
+        li {
+          line-height: 200%;
+          list-style-type: decimal;
+          padding: 0.2%;
+          cursor: pointer;
+          font-size: 230%;
+
+          &:hover {
+            color: #0d629b;
+          }
+        }
+      }
+    }
+
+    section {
+      background-color: #f5f6f8;
+
+      .separador {
+        background-color: #f5f6f8;
+        padding: 3% 0% 0% 0%;
+
+        .lineaDivisoria {
+          border-bottom: 3px solid #0d629b;
+          width: 10%;
+        }
+      }
+
+      .h3Pasos {
+        font-weight: bold;
+        text-align: center;
+        padding: 2% 2% 0%;
+        margin: 0%;
+        font-weight: bold;
+        color: #0d629b;
+        background-color: #f5f6f8;
+        font-size: 350%;
+      }
+
+      .pasos {
+        background-color: #f5f6f8;
+        padding-bottom: 4%;
+        padding-top: 2%;
+
+        .pConsulta {
+          width: 100%;
+          text-align: center;
+          padding: 1% 0% 1%;
+          margin: auto;
+          color: #0d629b;
+          background-color: #f5f6f8;
+          font-size: 2.4rem;
+        }
+
+        .pasosOpciones {
+          width: 100%;
+          background-color: #f5f6f8;
+          margin: auto;
+          font-size: 2.2rem;
+          font-weight: bold;
+
+          ul {
+            border: none;
+            box-shadow: none;
+            list-style: none;
+
+            #desplegar1,
+            #desplegar2,
+            #desplegar3,
+            #desplegar4 {
+              //border: 2px solid #fff;
+              margin: 3%;
+              color: #fff;
+              background: #0d629b;
+              display: flex;
+              cursor: pointer;
+              padding: 2%;
+
+              .material-icons-outlined {
+                font-size: 3rem;
+                padding-right: 1%;
+                width: 50px;
+              }
+            }
+
+            #desplegar2 {
+              background: #4c84b7;
+            }
+            #desplegar3 {
+              background: #808691;
+            }
+            #desplegar4 {
+              background: #8194ad;
+            }
+
+            .toggle1,
+            .toggle2,
+            .toggle3,
+            .toggle4 {
+              border: none;
+              margin: 0px 0px 0px 17px;
+              color: #0d629b;
+              font-weight: 500;
+              border-radius: 0px;
+              top: 0px;
+              display: none;
+
+              strong {
+                color: rgb(223, 25, 25);
+                font-weight: 700;
+              }
+
+              a {
+                color: #8194ad;
+                font-size: 3.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    //start carousel
+
+    .carousel-item {
+      transition: transform 1s ease, opacity 0.1s ease-out !important;
+      height: 30%;
+      width: 80%;
+      padding: 2%;
+      margin-left: 8%;
+    }
+
+    //end carousel
+
+    .datos {
+      font-size: 1.8rem;
+      padding: 4% 2% 5%;
+      background-color: #f5f6f8;
+      width: 100%;
+
+      .tituloForm {
+        font-weight: bold;
+        text-align: center;
+        padding: 0% 2% 2%;
+        margin: 0%;
+        font-weight: bold;
+        color: #0d629b;
+        background-color: #f5f6f8;
+        font-size: 3.3rem;
+      }
+
+      .formulario {
+        padding: 1% 2% 5%;
+        background-color: #f5f6f8;
+        border: 4px solid #0d629b;
+
+        label {
+          font-size: 1.8rem;
+          color: #8194ad;
+          font-weight: bold;
+          padding: 1%;
+
+          span {
+            font-size: 3.3rem;
+            color: #8194ad;
+            padding: 1%;
+          }
+        }
+
+        textarea {
+          margin: 4% 0%;
+          min-height: 200px;
+          max-height: 300px;
+          color: #000;
+        }
+
+        button {
+          font-size: 2rem;
+          font-weight: bold;
+          padding: 1%;
+          border: none;
+          height: 50px;
+          width: 110px;
+          cursor: pointer;
+          float: right;
+          color: #fff;
+          background: #0d629b;
+        }
+      }
+
+      .separador {
+        width: 100%;
+        margin: auto;
+        background-color: #f5f6f8;
+        padding: 3% 0% 0% 0%;
+
+        .lineaDivisoria {
+          border-bottom: 3px solid #0d629b;
+          width: 10%;
+        }
+      }
+    }
+
+    .datosRtte {
+      width: 100%;
+      font-size: 1.8rem;
+      padding: 0% 2% 5%;
+      background-color: #f5f6f8;
+
+      .tituloForm {
+        font-weight: bold;
+        text-align: center;
+        padding: 0% 2% 2%;
+        margin: 0%;
+        font-weight: bold;
+        color: #0d629b;
+        background-color: #f5f6f8;
+        font-size: 3.3rem;
+      }
+
+      .formulario2 {
+        padding: 1% 2% 5%;
+        background-color: #f5f6f8;
+        border: 4px solid #4c84b7;
+
+        legend {
+          font-size: 1.8rem;
+          color: #0d629b;
+          font-weight: bold;
+          padding: 1%;
+        }
+
+        label {
+          font-size: 1.8rem;
+          color: #000;
+          font-weight: bold;
+          padding: 1%;
+
+          span {
+            font-size: 3.3rem;
+            color: #8194ad;
+            padding: 1%;
+          }
+        }
+
+        textarea {
+          margin: 4% 0%;
+          min-height: 200px;
+          max-height: 300px;
+          color: #000;
+        }
+
+        button {
+          font-size: 2rem;
+          font-weight: bold;
+          padding: 1%;
+          border: none;
+          height: 50px;
+          width: 110px;
+          cursor: pointer;
+          float: right;
+          color: #fff;
+          background: #0d629b;
+        }
+      }
+    }
+
+    h3 {
+      font-weight: bold;
+      color: #0d629b;
+      background: #fff;
+      font-size: 3.5rem;
+      text-align: center;
+      overflow-y: hidden;
+      margin: 0%;
+      padding-top: 2%;
+    }
+
+    .mercado {
+      background: #fff;
+      padding-top: 2%;
+      margin: 0%;
+
+      .pago {
+        text-align: center;
+
+        p {
+          color: black;
+          font-weight: bold;
+          font-size: 2.3rem;
+          text-align: left;
+        }
+
+        .pCosto {
+          color: #0d629b;
+        }
+
+        .img {
+          padding: 2% 0%;
+        }
+      }
+
+      .mediosPago {
+        padding-top: 10%;
+
+        .logoMp {
+          padding-bottom: 5%;
+        }
+
+        .buttonPagar {
+          font-size: 2.4rem;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .ssl {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "jorge/telegramas_laborales",
+    "description": "Telegramas Laborales",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jorge Luján Medina",
+            "email": "jorgelujanm@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "emailSender\\": "./modules/emailSender",
+            "common\\": "./modules/common",
+            "input\\": "./modules/input"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "v6.5.1",
+        "twig/twig": "v3.3.3"
+    }
+}

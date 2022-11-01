@@ -1,0 +1,25 @@
+header{
+  
+  overflow-x: hidden;
+
+    .scrol {        
+
+      margin-top: 100px;
+      position: fixed;  
+    
+        #scrollTopButton {
+          background: #004b7c;
+          box-shadow: inset 5px 5px 14px #002c49, inset -5px -5px 14px #006aaf;
+          color: #fff;
+          padding: 0%;
+          border-radius: 70%;
+          width: 50px;
+          height: 50px;
+          border: none;          
+    
+          .material-icons {
+            font-size: 3rem;
+          }
+        }
+      }
+}

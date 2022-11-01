@@ -1,0 +1,31 @@
+$placeholder-color: rgb(229, 233, 247);
+$required-color: #0d629b;
+
+
+form[role='contact-form'] {
+    overflow-x: hidden;
+    :required::placeholder {
+        color: $required-color !important;
+    }
+    ::placeholder {
+        color: $placeholder-color !important;
+    }
+
+    legend {
+        font-weight: bold;        
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+    }
+
+    [role='required-reference'] {
+        color: $required-color !important;
+        font-size: 60%;
+    }
+
+    input {
+        &:focus {
+            border-bottom: 1px solid #1174ad !important;
+            box-shadow: none !important;
+        }
+    }
+}
