@@ -4,4 +4,6 @@ Este proyecto lo realicé para un particular, fue subido a un host pero actualme
 
 Construido con 🛠️ HTML5 CSS3 Bootstrap SASS JAVASCRIPT
 
-Autores ✒️ Sol Ferri
+Autores ✒️ 
+Sol Ferri
+Jorge Luján Medina (Formularios en PHP)
